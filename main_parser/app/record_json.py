@@ -1,3 +1,10 @@
+'''
+Метод реализует сериализацию данных из БД Redis "persons_dict"
+и записывает в файл формата JSON.
+    data_cache : класс подключения к БД Redis "persons_dict"
+'''
+
+
 import json
 import ast
 import logging

@@ -1,3 +1,8 @@
+'''
+Файл содержит основные данные для стабильной работы приложения.
+'''
+
+
 import os
 
 from dotenv import load_dotenv, find_dotenv

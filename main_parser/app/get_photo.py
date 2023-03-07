@@ -1,3 +1,13 @@
+'''
+Метод реализует запрос данных по ссылкам из красного
+или жёлтого списков с последующим запросом и записью
+в файл "data_persons" фотографий с профилей. На вход
+принимает драйвер, класс подключения к БД.
+    driver : класс драйвера (webdriver.Chrome() или webdriver.Firefox())
+    links_cache : класс подключения к БД Redis "links_list"
+'''
+
+
 import time
 import requests
 import logging

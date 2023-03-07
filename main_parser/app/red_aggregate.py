@@ -1,3 +1,14 @@
+'''
+Метод реализует запрос данных по ссылкам из красного
+списка с последующим формированием словарей и записью
+в список БД Redis. На вход принимает драйвер, классы
+подключения к БД.
+    driver : класс драйвера (webdriver.Chrome() или webdriver.Firefox())
+    links_cache : класс подключения к БД Redis "links_list"
+    data_cache : класс подключения к БД Redis "persons_dict"
+'''
+
+
 import time
 import logging
 

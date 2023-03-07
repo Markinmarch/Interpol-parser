@@ -1,3 +1,9 @@
+'''
+Настроечный файл. Реализует подключение к БД,
+настройки логгирования, подключение к драйверу.
+'''
+
+
 from redis import StrictRedis
 from selenium import webdriver
 import logging
